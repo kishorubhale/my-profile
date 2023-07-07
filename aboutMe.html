@@ -16,6 +16,18 @@
             letter-spacing:2px ;
             text-shadow: 4px 3px 2px rgb(0,0,0);
         }
+        .para{
+            margin-left: 40px;
+        }
+        .stack li{
+            margin-bottom: 10px;
+        }
+        .tableheader th{
+         padding: 10px;
+        }
+        .tablebody td{
+            padding: 10px;  
+        }
     </style>
 </head>
 <body>
@@ -23,12 +35,11 @@
     <img src="assets/Developer.png" ult="image Deteted">
     <p><strong>Name:</strong>Mohit Sharma</p>
     <h2>Contact Details</h2>
-   <p>&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;<strong>Mobile:</strong>12345 690 90</p>
-   
-   <p>&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;<strong>Email:</strong>mohitsharma@gmail.com</p>
+   <p class="para"><strong>Mobile:</strong>12345 690 90</p>
+   <p class="para"><strong>Email:</strong>mohitsharma@gmail.com</p>
     <hr>
     <h2>My Technology Stack</h2>
-    <ul>
+    <ul class="stack">
         <li>HTML5</li>
         <li>CSS</li>
         <li>Javascript</li>
@@ -37,7 +48,7 @@
     <hr>
     <h2>Academic Details</h2>
     <table>
-        <thead>
+        <thead class="tableheader">
             <tr>
                 <th>Sr.No</th>
                 <th>Academic</th>
@@ -45,7 +56,7 @@
                 <th>University/Board</th>
             </tr>
         </thead>
-        <tbody>
+        <tbody class="tablebody">
             <tr>
                 <td>1</td>
                 <td>Graduation</td>

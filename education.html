@@ -16,12 +16,18 @@
             letter-spacing:2px ;
             text-shadow: 4px 3px 2px rgb(0,0,0);
         }
+        .tableheader th{
+         padding: 10px;
+        }
+        .tablebody td{
+            padding: 10px;  
+        }
     </style>
 </head>
 <body>
     <h2>My Education Details</h2>
     <table>
-        <thead>
+        <thead class="tableheader">
             <tr>
                 <th>Sr.No</th>
                 <th>Academic</th>
@@ -29,7 +35,7 @@
                 <th>University/Board</th>
             </tr>
         </thead>
-        <tbody>
+        <tbody class="tablebody">
             <tr>
                 <td>1</td>
                 <td>Graduation</td>
