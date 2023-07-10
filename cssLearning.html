@@ -72,6 +72,12 @@
             border: 2px solid yellowgreen;
             padding: 20px;
         }
+        .dummy li{
+            list-style: square;
+        }
+        .fruits li{
+             list-style:upper-roman;/*,lower-roman,upper-alpha,lower-alpha ; */
+        }
     </style>
 </head>
 <body>
@@ -79,7 +85,7 @@
     <p style="color: orange; font-weight: bolder; font-size: larger;"> Lorem ipsum dolor sit amet consectetur. </p>
     
     <h3 id="summary"> Professional Summary </h3>
-    <ul>
+    <ul class="dummy">
         <li>Lorem ipsum dolor sit.</li>
         <li id="summary2">Lorem ipsum dolor sit amet.</li>
         <li id="summary3">Lorem ipsum dolor sit amet consectetur adipisicing.</li>
@@ -87,12 +93,12 @@
     </ul>
     <h3> My <span> Permanent </span> address</h3>
     <h3 class="listFruits"> List Of Fruits </h3>
-    <ul>
+    <ol class="fruits">
         <li> Apple </li>
         <li class="fruit"> Mango </li>
         <li class="fruit"> Water Melon </li>
         <li> Grapes </li>
-    </ul>
+    </ol>
 
     <p class="para">
        <span id="dolor">Lorem ipsum dolor</span>  sit amet consectetur adipisicing elit. Perferendis rem impedit modi. Voluptatum est veritatis corporis quaerat non numquam eum qui. Odio totam neque magnam eligendi deleniti debitis consequatur magni!
