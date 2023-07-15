@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Discount Calculator</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Signika+Negative:wght@300&display=swap" rel="stylesheet">
+    <style>
+        div{
+            display: inline-block;
+            max-height: 50vh;
+            max-width: 35vw;
+            border: 2px solid black;
+            border-radius: 10px;
+            margin: 50px;
+            padding: 40px;
+            font-family: 'Signika Negative', sans-serif;
+            
+        }
+        .div2{
+            max-height: 50vh;
+            max-width: 35vw;
+            border: 2px solid black;
+            border-radius: 10px;
+            margin: 50px;
+            padding: 40px;
+            font-family: 'Signika Negative', sans-serif;
+        }
+        h2{
+            color: cadetblue;
+            /* margin-left: 80px; */
+            text-align: center;
+            font-family: 'Poppins', sans-serif;
+        }
+        #para{
+            color: cadetblue;
+            text-align: left;
+        }
+        label{
+            margin-bottom: 100px;
+        }
+     #download{
+        color: burlywood;
+        background-color:#4caf50;
+            width: 300px;
+            height: 30px;
+            border-radius: 5px;
+            border: none;
+            text-align: center; 
+     }
+        #download:hover{
+            background-color:burlywood;
+            color: white;
+            width: 300px;
+            height: 30px;
+            border-radius: 5px;
+            border: none;
+            text-align: center;
+        }
+        
+        .Amount{
+            margin-bottom: 100px;
+        }
+        input[type="text"]{
+            width: 300px;
+            height: 23px;
+            color: cadetblue;
+            font-size:large;
+            font-weight:bolder;
+        }
+        input[type="number"]{
+            width: 300px;
+            height: 23px;
+            color: cadetblue;
+
+            font-size:large;
+            font-weight:bolder;
+        }
+        tr{
+            color: cadetblue;
+        }
+        
+    </style>
+</head>
+
+<body>
+        <div>
+        <h2>DISCOUNT CALCULATOR</h2>
+        <p id="para">Enter the Bill and Discount in percentage</p>
+        <table>
+            <tbody>
+                <tr>
+                    <td><label class="Amount" >Bill Amount</label><br>
+                     <input type="text"></td>
+                </tr>
+       <tr>
+        <td><label>Discount Percentage</label><br>
+         <input type="number"></td>
+       </tr>
+       <tr>
+        <td>
+            <button type="button" id="download">Calculate</button></td>
+        </tr>
+        <td><label>Total Discount Amount</label></td>
+        </tbody>
+</table>
+</div>
+<div class="div2">
+    <h2>DISCOUNT CALCULATOR</h2>
+    <p id="para">Enter the Bill and Discount in percentage</p>
+    <table>
+        <tbody>
+            <tr>
+                <td><label class="Amount" >Bill Amount</label><br>
+                 <input type="text"></td>
+            </tr>
+   <tr>
+    <td><label>Discount Percentage</label><br>
+     <input type="number"></td>
+   </tr>
+   <tr>
+    <td>
+        <button type="button" id="download">Calculate</button></td>
+    </tr>
+    <td><label>Total Discount Amount</label></td>
+    </tbody>
+</table>
+</div>
+</body>
+</html>

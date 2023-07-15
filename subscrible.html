@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Subscriber</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Signika+Negative:wght@300&family=Sofia&display=swap" rel="stylesheet">
+    <style>
+        .main-section{
+            /* display: inline-block; */
+            max-width: 25vw;
+            max-height: 87vh;
+            background-color:#fc5c7d;
+            margin: 50px;
+            padding: 30px;
+            border-radius: 10px;
+        }
+h2{
+    font-family: 'Poppins', sans-serif;
+}
+.para{
+    background-color: #3498db;
+    max-width: 25vw;
+    max-height: 50vh;
+    /* margin: 20px; */
+    padding: 20px;
+    border-radius: 10px;
+    font-family: 'Signika Negative', sans-serif;
+    color: white;
+    
+}
+input[type="email"]{
+height: 25px;
+width:340px;
+border-radius: 8px;
+}
+textarea{
+    font-family: 'Signika Negative', sans-serif;
+    font-weight: bold;
+    margin-right: 100px;
+}
+#button1{
+     margin: 10px 250px 10px;
+    padding: 5px;
+    font-family: 'Signika Negative', sans-serif;
+    font-weight: bold;
+
+}
+label{
+    font-family: 'Poppins', sans-serif; 
+}
+.required{
+    color:red;
+}
+    </style>
+</head>
+<body>
+    <div class="main-section">
+    <h2>Subscriber</h2><hr>
+    <p class="para">we're sorry to see you go,but hey, no hard <br>feelings, hopefully we will see you back<br> one day.<br>Please fill in your email address in order to<br> unsubscribe from the list.<br>
+    you will receive an email to confirm your <br>unsubscription,just to make sure this is <br>not an accident or somebody else tries to <br>unsubscribe you.</p>
+   <div> <label >Email<span class="required">*</span>
+   </label><br>
+    <input type="email" required><br>
+
+</div>
+<br>
+<tr>
+    <td><label>Unsubscribe reason</label><br>
+    <textarea  cols="54" rows="3" placeholder="Unsubscribe reason"></textarea></td><br>
+</tr>
+<hr style="color: #ecf0f1;">
+<button type="button" id="button1">Unsubscribe</button>
+</div>
+</body>
+</html>
