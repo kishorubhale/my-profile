@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Simple card</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Signika+Negative:wght@300&family=Sofia&display=swap" rel="stylesheet">
+    <style>
+      .photo-section {
+        display: inline-block;
+      }
+      .content-section {
+        display: inline-block;
+      }
+      .points li {
+        padding: 10px;
+        list-style-type: none;
+        font-family: 'Signika Negative', sans-serif;
+      }
+      .points li::before {
+        content: "✍️";
+      }
+      .points li::selection{
+        color: #e74c3c;
+      }
+      .points li:hover{
+background-color: rgb(235, 126, 49);
+color: black;
+      }
+      .icons {
+        color: #e74c3c;
+      }
+      .iconss ul li {
+        display: inline-block;
+      }
+      .logo{
+        /* display: inline-block; */
+        margin-bottom: 100px;
+      
+      }
+      h2{
+        font-family: 'Poppins', sans-serif;
+      }
+      .container{
+        max-width: 60vw;
+        max-height: 75vh;
+        background-color: antiquewhite;
+        margin: 10px;
+        padding: 30px;
+        border-radius: 5px;
+      }
+      #para{
+        margin-left: 40px;
+        font-family: 'Sofia', cursive;
+        text-align: center;
+      }
+      #lab{
+        font-family: 'Poppins', sans-serif;
+        display: inline-block;
+        margin-left: 50px;
+        font-weight: bolder;
+        font-size: larger;
+      
+      }
+      .footercontent{
+        margin-right: 20px;
+      }
+      .iconss{
+        padding-top: 10px;
+      }
+      li:nth-child(even){
+        background-color: rgb(235, 126, 49);
+color: black;
+      }
+      /* body{
+        background-image: url(assets/images.jpg);
+        background-repeat: repeat-x;
+        background-repeat: space;
+      } */
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="photo-section">
+        <img src="assets/images.jpg" alt="Load Image" /><br>
+        <span class="logo"><i class="fa icons fa-3x fa-cog" aria-hidden="true"></i><span id="para">Powered by</span><br>
+      <div id="lab">JSoftwareLabs</div> </span>
+      </div>
+      <div class="content-section">
+        <h2>Compare Text Online</h2>
+        <ul class="points">
+          <li>Compare Text online free</li>
+          <li>Supports large file comparison</li>
+          <li>Ignore order and namespaces</li>
+          <li>Side by side diff view</li>
+          <li>Get results in tablular format for quick reference</li>
+          <li>TEXT diff tool</li>
+          <li>REST API</li>
+        </ul>
+    </div>
+        <div class="iconss">
+        <span class="footercontent"><strong> Fallow Me</strong></span>
+            <!-- <span class="icons"> -->
+            <span class="footercontent"><a href="https://github.com/kishorubhale/my-profile.git" target="_blank"><i class="fa icons fa-github" aria-hidden="true"></i></a> </span>
+            <span class="footercontent"><a href="https://www.linkedin.com/in/kishor-ubhale-6008461a4/" target="_blank"><i class="fa icons  fa-linkedin-square" aria-hidden="true"></i></a> </span>
+            <span class="footercontent"><a href="https://www.instagram.com/" target="_blank"><i class="fa icons fa-instagram" aria-hidden="true"></i></a></span>
+            <span class="footercontent"><a href="https://www.facebook.com/" target="_blank"><i class="fa icons fa-facebook-official" aria-hidden="true"></i></a></span></span>
+    </div>
+      
+  </body>
+</html>
