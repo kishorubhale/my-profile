@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment</title>
+    <style>
+        .div1{
+            display: inline-block;
+            background-color: #ffffff;
+            width: 270px;
+             height: 310px;
+            margin: 60px;
+            border: 2px solid gray;
+            border-radius: 10px;
+        }
+        .div2{
+            display: inline-block;
+            background-color: #ffffff;
+             width: 270px;
+             height: 310px;
+            margin: 60px;
+            position: relative;
+            bottom:40px;
+            border: 2px solid gray;
+            border-radius: 10px;
+        }
+        .div3{
+            display: inline-block;
+            background-color:#ffffff;
+            max-width: 400px;
+            max-height: 400px;
+            width: 270px;
+            height: 310px;
+            margin: 60px;
+            border: 2px solid gray;
+            border-radius: 10px;
+        }
+        ul{
+            list-style-type: none;
+            position: relative;
+            top: 5px;
+            bottom: 30px;
+        }
+.old::before{
+    content:'✔️';
+}
+.even::before{
+    content: '❌';
+}
+.button{
+    margin: 20px;
+    margin-right: 2px;
+    border-radius: 5px;
+    border: 1px solid #2874f0;
+    color: #f0f0f0;
+    background-color:#2874f0;
+    width: 200px;
+    height: 30px;
+    position: relative;
+    bottom: 30px;
+    FONT-FAMILY:Roboto, Arial, sans-serif
+}
+p{
+    margin-left: 100px;
+    font-weight: bolder;
+    font-size: larger;
+    FONT-FAMILY:Roboto, Arial, sans-serif;
+    position: relative;
+    top: 5px;
+    bottom: 40px;
+    margin-top: 4px;
+}
+h2{
+    /* margin-left: 20px; */
+    text-align: center;
+    position: relative;
+    bottom: 19.5px;
+    padding: 15px;
+    color: white;
+    background-color:#2874f0;
+    FONT-FAMILY:Roboto, Arial, sans-serif;
+
+
+}
+.h2{
+    color: white;
+    background-color:#8a2387;
+
+}
+    </style>
+</head>
+<body>
+    <div class="container">
+    <div class="div1">
+        <h2>Basic</h2>
+        <ul>
+            <li class="old">Hosting</li>
+            <li class="even">Domain</li>
+            <li class="old">1 GB Space</li>
+            <li class="even">Free SSL</li>
+            <li class="old">1 Website Host</li>
+           </ul>
+           <p>&dollar;5</p>
+           <button type="button"  class="button">Buy Now</button>
+    </div>
+    <div class="div2">
+        <h2 class="h2">Standard</h2>
+        <ul>
+            <li class="old">Hosting</li>
+            <li class="old">Domain</li>
+            <li class="old">1 GB Space</li>
+            <li class="even">Free SSL</li>
+            <li class="old">1 Website Host</li>
+           </ul>
+           <p>&dollar;10</p>
+           <button type="button"  class="button">Buy Now</button>
+    </div>
+    <div class="div3">
+        <h2>Standard</h2>
+        <ul>
+            <li class="old">Hosting</li>
+            <li class="old">Domain</li>
+            <li class="old">1 GB Space</li>
+            <li class="old">Free SSL</li>
+            <li class="old">1 Website Host</li>
+           </ul>
+           <p>&dollar;20</p>
+           <button type="button" class="button">Buy Now</button>
+    </div>
+</div>
+</body>
+</html>
